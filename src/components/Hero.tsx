@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
     <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0">
         <img
-          src="https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg"
+          src="/images/620aebe5-40f6-45d5-bba5-dcf29d90310b.jpg"
           alt="Adrasan Tekne Turu"
           className="w-full h-full object-cover"
         />

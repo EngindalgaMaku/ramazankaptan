@@ -62,7 +62,7 @@ const Footer: React.FC = () => {
                 <Instagram size={20} />
               </a>
               <a
-                href="https://wa.me/905551234567"
+                href="https://wa.me/905393601997"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gray-800 hover:bg-green-600 p-3 rounded-full transition-colors"
@@ -114,11 +114,11 @@ const Footer: React.FC = () => {
             <h4 className="text-xl font-semibold mb-6">İletişim</h4>
             <div className="space-y-4">
               <a
-                href="tel:+905551234567"
+                href="tel:+905393601997"
                 className="flex items-center space-x-3 text-gray-300 hover:text-cyan-400 transition-colors group"
               >
                 <Phone size={18} className="group-hover:text-cyan-400" />
-                <span>+90 555 123 45 67</span>
+                <span>+90 539 360 19 97</span>
               </a>
               <a
                 href="mailto:info@ramazankaptan.com"

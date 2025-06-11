@@ -6,47 +6,47 @@ const Gallery: React.FC = () => {
 
   const images = [
     {
-      src: 'https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg',
+      src: '/images/620aebe5-40f6-45d5-bba5-dcf29d90310b.jpg',
       alt: 'Adrasan Tekne Turu - Mavi Su',
       category: 'Doğa'
     },
     {
-      src: 'https://images.pexels.com/photos/1001604/pexels-photo-1001604.jpeg',
+      src: '/images/2f7fcef3-41eb-480a-938a-e5c0bbefd421.jpg',
       alt: 'Gün Batımı Turu',
       category: 'Gün Batımı'
     },
     {
-      src: 'https://images.pexels.com/photos/1001677/pexels-photo-1001677.jpeg',
+      src: '/images/97481bba-de03-4193-a453-cbd490c7b485.jpg',
       alt: 'Balık Avı Deneyimi',
       category: 'Aktivite'
     },
     {
-      src: 'https://images.pexels.com/photos/1001686/pexels-photo-1001686.jpeg',
+      src: '/images/9cf06362-804e-45ac-ab9c-128b7543445c.jpg',
       alt: 'Grup Turları',
       category: 'Grup'
     },
     {
-      src: 'https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg',
+      src: '/images/c0ed67c7-c7eb-47d2-b78a-af3844fc2558.jpg',
       alt: 'Kristal Berrak Su',
       category: 'Doğa'
     },
     {
-      src: 'https://images.pexels.com/photos/1001691/pexels-photo-1001691.jpeg',
+      src: '/images/52ee6f62-cc0e-4337-b574-d5d70662fabd.jpg',
       alt: 'Deniz Sporları',
       category: 'Aktivite'
     },
     {
-      src: 'https://images.pexels.com/photos/1563354/pexels-photo-1563354.jpeg',
+      src: '/images/b9a57aa0-9eb0-43c0-9e74-8ed1c0a99513.jpg',
       alt: 'Sahil Manzarası',
       category: 'Doğa'
     },
     {
-      src: 'https://images.pexels.com/photos/1001693/pexels-photo-1001693.jpeg',
+      src: '/images/575da10d-1467-4680-b84c-458eafac8c3e.jpg',
       alt: 'Romantik Anlar',
       category: 'Gün Batımı'
     },
     {
-      src: 'https://images.pexels.com/photos/1563355/pexels-photo-1563355.jpeg',
+      src: '/images/b85853e2-d4f1-4805-80cb-3d6cf0035685.jpg',
       alt: 'Aile Keyfi',
       category: 'Grup'
     }

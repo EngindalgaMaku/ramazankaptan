@@ -41,14 +41,14 @@ const Contact: React.FC = () => {
     {
       icon: Phone,
       title: 'Telefon',
-      content: '+90 555 123 45 67',
-      link: 'tel:+905551234567'
+      content: '+90 539 360 19 97',
+      link: 'tel:+905393601997'
     },
     {
       icon: MessageCircle,
       title: 'WhatsApp',
-      content: '+90 555 123 45 67',
-      link: 'https://wa.me/905551234567'
+      content: '+90 539 360 19 97',
+      link: 'https://wa.me/905393601997'
     },
     {
       icon: Mail,
@@ -134,7 +134,7 @@ const Contact: React.FC = () => {
                       value={formData.phone}
                       onChange={handleInputChange}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-cyan-500 focus:border-transparent transition-colors"
-                      placeholder="0555 123 45 67"
+                      placeholder="0539 360 19 97"
                     />
                   </div>
                   <div>
@@ -295,7 +295,7 @@ const Contact: React.FC = () => {
                   <Instagram size={24} />
                 </a>
                 <a
-                  href="https://wa.me/905551234567"
+                  href="https://wa.me/905393601997"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-white/20 hover:bg-white/30 p-3 rounded-full transition-colors"

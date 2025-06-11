@@ -69,7 +69,7 @@ const Header: React.FC = () => {
               </button>
             ))}
             <div className="flex items-center space-x-3">
-              <a href="tel:+905551234567" className={`p-2 rounded-full transition-colors hover:bg-cyan-500 hover:text-white ${
+              <a href="tel:+905393601997" className={`p-2 rounded-full transition-colors hover:bg-cyan-500 hover:text-white ${
                 isScrolled ? 'text-gray-700' : 'text-white'
               }`}>
                 <Phone size={20} />
@@ -105,7 +105,7 @@ const Header: React.FC = () => {
                 </button>
               ))}
               <div className="flex justify-center space-x-4 mt-4 pt-4 border-t">
-                <a href="tel:+905551234567" className="flex items-center space-x-2 text-cyan-600">
+                <a href="tel:+905393601997" className="flex items-center space-x-2 text-cyan-600">
                   <Phone size={20} />
                   <span>Ara</span>
                 </a>

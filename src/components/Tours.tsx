@@ -9,7 +9,7 @@ const Tours: React.FC = () => {
       duration: '8 saat',
       capacity: '12 kişi',
       price: '€45',
-      image: 'https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg',
+      image: '/images/620aebe5-40f6-45d5-bba5-dcf29d90310b.jpg',
       features: ['Öğle yemeği dahil', 'Snorkeling ekipmanı', 'Fotoğraf çekimi', 'Rehberli tur'],
       highlights: ['Suluada Adası', 'Kaş Limanı', 'Mavi Mağara']
     },
@@ -19,7 +19,7 @@ const Tours: React.FC = () => {
       duration: '4 saat',
       capacity: '8 kişi',
       price: '€65',
-      image: 'https://images.pexels.com/photos/1001604/pexels-photo-1001604.jpeg',
+      image: '/images/2f7fcef3-41eb-480a-938a-e5c0bbefd421.jpg',
       features: ['Aperatif ikramı', 'Canlı müzik', 'Romantik dekorasyon', 'Özel fotoğraf'],
       highlights: ['Gün batımı manzarası', 'Sakin koylar', 'Özel servis']
     },
@@ -29,7 +29,7 @@ const Tours: React.FC = () => {
       duration: '6 saat',
       capacity: '10 kişi',
       price: '€55',
-      image: 'https://images.pexels.com/photos/1001677/pexels-photo-1001677.jpeg',
+      image: '/images/97481bba-de03-4193-a453-cbd490c7b485.jpg',
       features: ['Av ekipmanları', 'Kahvaltı dahil', 'Balık pişirme', 'Teknik eğitim'],
       highlights: ['Derin deniz avı', 'Geleneksel yöntemler', 'Taze balık yemeği']
     },
@@ -39,7 +39,7 @@ const Tours: React.FC = () => {
       duration: 'Flexible',
       capacity: '20 kişi',
       price: 'İletişim',
-      image: 'https://images.pexels.com/photos/1001686/pexels-photo-1001686.jpeg',
+      image: '/images/9cf06362-804e-45ac-ab9c-128b7543445c.jpg',
       features: ['Özel rota', 'Catering seçeneği', 'Müzik sistemi', 'Esnek program'],
       highlights: ['Kişiye özel rota', 'Grup aktiviteleri', 'Kutlama organizasyonu']
     }
