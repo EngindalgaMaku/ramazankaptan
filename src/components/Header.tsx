@@ -21,6 +21,15 @@ const Header: React.FC = () => {
     }
   };
 
+  const navigationItems = [
+    { name: 'Ana Sayfa', id: 'hero' },
+    { name: 'Hakkımızda', id: 'hakkimizda' },
+    { name: 'Turlarımız', id: 'turlarimiz' },
+    { name: 'Galeri', id: 'galeri' },
+    { name: 'Yorumlar', id: 'yorumlar' },
+    { name: 'İletişim', id: 'iletisim' }
+  ];
+
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
       isScrolled ? 'bg-white/95 backdrop-blur-md shadow-lg' : 'bg-transparent'
@@ -48,15 +57,15 @@ const Header: React.FC = () => {
           </div>
 
           <nav className="hidden md:flex items-center space-x-8">
-            {['Ana Sayfa', 'Hakkımızda', 'Turlarımız', 'Galeri', 'Yorumlar', 'İletişim'].map((item, index) => (
+            {navigationItems.map((item) => (
               <button
-                key={item}
-                onClick={() => scrollToSection(index === 0 ? 'hero' : item.toLowerCase().replace('ı', 'i'))}
+                key={item.name}
+                onClick={() => scrollToSection(item.id)}
                 className={`font-medium transition-colors hover:text-cyan-400 ${
                   isScrolled ? 'text-gray-700' : 'text-white'
                 }`}
               >
-                {item}
+                {item.name}
               </button>
             ))}
             <div className="flex items-center space-x-3">
@@ -86,13 +95,13 @@ const Header: React.FC = () => {
         {isMenuOpen && (
           <div className="md:hidden absolute top-full left-0 right-0 bg-white border-t shadow-lg">
             <nav className="flex flex-col py-4">
-              {['Ana Sayfa', 'Hakkımızda', 'Turlarımız', 'Galeri', 'Yorumlar', 'İletişim'].map((item, index) => (
+              {navigationItems.map((item) => (
                 <button
-                  key={item}
-                  onClick={() => scrollToSection(index === 0 ? 'hero' : item.toLowerCase().replace('ı', 'i'))}
+                  key={item.name}
+                  onClick={() => scrollToSection(item.id)}
                   className="px-6 py-3 text-left text-gray-700 hover:bg-gray-50 transition-colors"
                 >
-                  {item}
+                  {item.name}
                 </button>
               ))}
               <div className="flex justify-center space-x-4 mt-4 pt-4 border-t">
